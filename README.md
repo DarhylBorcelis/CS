@@ -58,10 +58,11 @@ A program that allows the user to enter numbers and sort them in **ascending** o
   - `asc` → ascending order.
   - `des` → descending order.
 - Option to repeat without restarting the program.
+  
 ---
 
 
-  ## ⭐ Act-2: Bisection Method
+  ## ⭐ Act-4: Bisection Method
 
 The **Bisection Method** is a numerical technique to find where a function equals **0**.
 
