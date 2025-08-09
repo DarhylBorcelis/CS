@@ -1,3 +1,102 @@
+# 🏪 Store Products Manager – Python Program
+
+This is a simple **console-based Python program** to:
+- Add products with an **auto-generated ID**.
+- Search for products by **name** or **ID**.
+- Show **all products**.
+- Exit the program.
+
+It’s a beginner-friendly project for learning **lists, loops, and functions in Python**.
+
+---
+
+## 📌 Features
+
+1. **Add Product**
+   - Automatically generates a unique product ID starting from `20250000`.
+   - Stores:
+     - ID
+     - Product Name
+     - Product Category (Only: Gadget, Clothing, Food)
+   - Example:
+     ```
+     Product added! ID: 20250001, Name: LAPTOP, Category: GADGET
+     ```
+
+2. **Search Product**
+   - Option to:
+     - Show all products.
+     - Search by **Product ID** or **Product Name**.
+   - Example search:
+     ```
+     Enter the Product Name or ID to search: LAPTOP
+     ID: [20250001] Name: [LAPTOP] Category: [GADGET]
+     ```
+
+3. **Clear Screen**
+   - Clears the console and shows the menu again.
+
+4. **Exit**
+   - Closes the program.
+
+---
+
+## 📂 Code
+```python
+import os
+data = []
+
+def add_data():
+    ID = len(data) + 20250000
+    name = input("Product Name: ").upper()
+    category = input("Category (Gadget, Clothing, or Food): ").upper()
+
+    if category not in ['GADGET', 'CLOTHING', 'FOOD']:
+        print("Invalid category. Please enter 'Gadget', 'Clothing', or 'Food'.")
+        return
+
+    data.append([ID, name, category])
+    print(f"Product added! ID: {ID}, Name: {name}, Category: {category}")
+
+def search_data():
+    show = input('Show all Products? y/n: ').lower()
+    num = 0
+    if show == 'y':
+        print("***All Products***")
+        for x in data:
+            num += 1
+            print(f"{num} ID: [{x[0]}] Name: [{x[1]}] Category: [{x[2]}]")
+    else:
+        con = input("Enter the Product Name or ID to search: ").upper()
+        found = False
+        for x in data:
+            if con == str(x[0]) or con == x[1]:
+                print(f"ID: [{x[0]}] Name: [{x[1]}] Category: [{x[2]}]")
+                found = True
+        if not found:
+            print("No matching product found.")
+
+while True:
+    print("\n******** Store Products Menu ********")
+    print("1. Add Product")
+    print("2. Search Product")
+    print("3. Clear (Show Menu Again)")
+    print("4. Exit Program")
+
+    choice = input("Enter your choice (1-4): ")
+
+    if choice == '1':
+        add_data()
+    elif choice == '2':
+        search_data()
+    elif choice == '3':
+        os.system('cls')
+        continue
+    elif choice == '4':
+        print("Exiting program. Goodbye!")
+        break
+    else:
+        print("Invalid choice. Please select 1, 2, 3, or 4.")
 
 ---
 
