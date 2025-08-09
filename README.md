@@ -69,8 +69,7 @@ The **Bisection Method** is a numerical technique to find where a function equal
 
 ## ⭐ Act-3: Number Sorter (Asc/Desc)
 
-A program that allows the user to enter numbers and sort them in **ascending** or **descending** order.  
-Although labeled "Bubble Sort", it uses Python’s built-in `.sort()` for simplicity.
+A program that allows the user to enter numbers and sort them in **ascending** or **descending** order. 
 
 ### 📌 Features
 - Accepts any number of integers from the user.
