@@ -8,7 +8,7 @@ This repository contains **three activity**:
 
 ---
 
-## ⭐ Act-1: Product Management System
+## ⭐ Act-1: Model
 
 A simple program to:
 - Add products with an **auto-generated ID**.
