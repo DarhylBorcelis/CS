@@ -1,4 +1,4 @@
-# Act# 1 Model
+## ⭐ Act# 1 Model
 This is a simple **Model** to:
 - Add products with an **auto-generated ID**.
 - Search for products by **name** or **ID**.
@@ -39,7 +39,7 @@ This is a simple **Model** to:
 
 ---
 
-## Act# 1 Model
+## ⭐ Act# 1 Model
 
 The **Bisection Method** is a numerical technique to find where a function equals **0**.  
 It works by:
