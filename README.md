@@ -1,5 +1,4 @@
-# 🏪 Store Products Manager – Python Program
-
+# 🏪 Model
 This is a simple **console-based Python program** to:
 - Add products with an **auto-generated ID**.
 - Search for products by **name** or **ID**.
