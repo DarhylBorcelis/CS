@@ -38,6 +38,22 @@ This is a simple **Model** to:
    - Closes the program.
 
 ---
+Bubble Sort how many numbers? 5
+Enter number 1: 9
+Enter number 2: 2
+Enter number 3: 7
+Enter number 4: 1
+Enter number 5: 4
+Enter ('asc') for Ascending or ('des') for Descending: asc
+Sorted list: [1, 2, 4, 7, 9]
+Repeat? y/n: y
+Bubble Sort how many numbers? 3
+Enter number 1: 10
+Enter number 2: 5
+Enter number 3: 8
+Enter ('asc') for Ascending or ('des') for Descending: des
+Sorted list: [10, 8, 5]
+Repeat? y/n: n
 
 ## ⭐ Act-2 Bisection Method
 
