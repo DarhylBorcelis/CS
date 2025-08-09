@@ -2,7 +2,7 @@
 
 This repository contains **three activity**:
 
-- **Act-1** → Product Management System  
+- **Act-1** → Model/Database
 - **Act-2** → Bisection Method (Root-Finding)  
 - **Act-3** → Number Sorter (Ascending/Descending)  
 
