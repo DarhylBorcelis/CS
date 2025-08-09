@@ -3,8 +3,9 @@
 This repository contains **three activity**:
 
 - **Act-1** → Model/Database
-- **Act-2** → Bisection Method (Root-Finding)  
-- **Act-3** → Number Sorter (Ascending/Descending)  
+- **Act-2** → 
+- **Act-3** → Number Sorter (Ascending/Descending)
+- **Act-4** → Bisection Method (Root-Finding) 
 
 ---
 
@@ -46,7 +47,21 @@ A simple program to:
 
 ---
 
-## ⭐ Act-2: Bisection Method
+
+## ⭐ Act-3: Number Sorter (Asc/Desc)
+
+A program that allows the user to enter numbers and sort them in **ascending** or **descending** order. 
+
+### 📌 Features
+- Accepts any number of integers from the user.
+- Allows choice between:
+  - `asc` → ascending order.
+  - `des` → descending order.
+- Option to repeat without restarting the program.
+---
+
+
+  ## ⭐ Act-2: Bisection Method
 
 The **Bisection Method** is a numerical technique to find where a function equals **0**.
 
@@ -66,16 +81,5 @@ The **Bisection Method** is a numerical technique to find where a function equal
    - Otherwise, keep the half of the range where the sign changes.
 
 ---
-
-## ⭐ Act-3: Number Sorter (Asc/Desc)
-
-A program that allows the user to enter numbers and sort them in **ascending** or **descending** order. 
-
-### 📌 Features
-- Accepts any number of integers from the user.
-- Allows choice between:
-  - `asc` → ascending order.
-  - `des` → descending order.
-- Option to repeat without restarting the program.
 
 
