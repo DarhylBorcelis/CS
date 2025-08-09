@@ -79,5 +79,4 @@ Although labeled "Bubble Sort", it uses Python’s built-in `.sort()` for simpli
   - `des` → descending order.
 - Option to repeat without restarting the program.
 
-### 💻 Example Run
 
