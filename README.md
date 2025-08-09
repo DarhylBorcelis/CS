@@ -1,11 +1,10 @@
 # 🏪 Model
-This is a simple **console-based Python program** to:
+This is a simple **Model** to:
 - Add products with an **auto-generated ID**.
 - Search for products by **name** or **ID**.
 - Show **all products**.
 - Exit the program.
 
-It’s a beginner-friendly project for learning **lists, loops, and functions in Python**.
 
 ---
 
