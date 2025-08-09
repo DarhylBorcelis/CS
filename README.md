@@ -3,7 +3,7 @@
 This repository contains **three activity**:
 
 - **Act-1** → Model/Database
-- **Act-2** → 
+- **Act-2** → Simulation
 - **Act-3** → Number Sorter (Ascending/Descending)
 - **Act-4** → Bisection Method (Root-Finding) 
 
