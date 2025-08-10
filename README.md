@@ -48,7 +48,7 @@ A simple program to:
 ---
 
 
-## ⭐ Act-3: Number Sorter (Asc/Desc)
+## ⭐ Act-3: Bubble Sort (Asc/Desc)
 
 A program that allows the user to enter numbers and sort them in **ascending** or **descending** order. 
 
