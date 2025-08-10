@@ -1,6 +1,6 @@
 # 🏆 Computational science Activity
 
-This repository contains **three activity**:
+This repository contains **Activity**:
 
 - **Act-1** → Model/Database
 - **Act-2** → Simulation
