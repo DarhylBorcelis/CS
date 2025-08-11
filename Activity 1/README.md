@@ -94,8 +94,3 @@ Show all Products? y/n: y
 ```
 
 ---
-
-## 4. Notes
-- **Case-insensitive input** for categories and search terms.
-- IDs are **unique and auto-incremented**.
-- Works on **Windows** for screen clearing (`os.system('cls')`).
