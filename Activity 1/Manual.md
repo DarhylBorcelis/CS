@@ -34,10 +34,10 @@ Below is a detailed explanation of **what each menu option does**, what the prog
 - Example: first product → 20250000, second → 20250001, etc.
 
 **Example session**
--Enter your choice (1-4): 1
--Product Name: Laptop
--Category (Gadget, Clothing, or Food): Gadget
--Product added! ID: 20250000, Name: LAPTOP, Category: GADGET
+- Enter your choice (1-4): 1
+- Product Name: Laptop
+- Category (Gadget, Clothing, or Food): Gadget
+- Product added! ID: 20250000, Name: LAPTOP, Category: GADGET
 
 ---
 
