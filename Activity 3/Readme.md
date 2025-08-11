@@ -87,5 +87,5 @@ Repeat? y/n: n
 
 ---
 
-## 6. Notes
+## 6. Notes & Tips
 - Works only with integers (decimal input will cause an error unless code is modified).
