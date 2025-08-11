@@ -27,7 +27,7 @@ When you **start the program**, you will see:
 ### **Option 1 — Add Product**
 - Prompts for:
   1. **Product Name** → converted to uppercase automatically.
-  2. **Category** → must be `"Gadget"`, `"Clothing"`, or `"Food"` (case-insensitive).
+  2. **Category** → must be `"Gadget"`, `"Clothing"`, or `"Food"`.
 - Automatically generates a **unique Product ID** starting from `20250000`.
 - Example:
   ```
