@@ -1,140 +1,101 @@
-# 🏪 MODEL/DATABASE — Detailed Manual
+# 🛒 Store Products Menu — User Manual
 
-After **starting the program**, you will see this menu:
+When you **start the program**, you will see:
 
-******** Store Products Menu ********
-
-1. Add Product
-2. Search Product
-3. Clear (Show Menu Again)
-4. Exit Program
-
-Below is a detailed explanation of **what each menu option does**, what the program asks you, and example interactions.
-
----
-
-## 1. Add Product
-**What it does**
-- Lets you add a new product to the program's in-memory list.
-- Automatically assigns a unique Product ID.
-
-**User steps**
-1. Type `1` and press Enter.
-2. When prompted, type the **Product Name** (any case allowed). The program will store it in UPPERCASE.
-3. When prompted, type the **Category**. Allowed values (case-insensitive): `Gadget`, `Clothing`, `Food`.
-
-**Validation**
-- If you enter anything other than the three allowed categories, the program will print:
-  Invalid category. Please enter 'Gadget', 'Clothing', or 'Food'.
-  and return to the main menu without adding the product.
-
-**How ID is generated**
-- ID = len(data) + 20250000
-- Example: first product → 20250000, second → 20250001, etc.
-
-**Example session**
-- Enter your choice (1-4): `1`
-- Product Name: `Laptop`
-- Category (Gadget, Clothing, or Food): `Gadget`
-- `Product added! ID: 20250000, Name: LAPTOP, Category: GADGET`
-
----
-
-## 2. Search Product
-**What it does**
-- Lets you either list *all* products or search for a single product by **Name** or **ID**.
-
-**User steps**
-1. Type `2` and press Enter.
-2. When asked `Show all Products? y/n:`, enter:
-   - `y` to list everything, or
-   - `n` to search for a specific product.
-3. If you chose `n`, you'll be prompted:
-   - Enter the Product Name or ID to search: `Type a product name (any case) or the numeric ID.`
-
-**Matching rules**
-- Names are compared in uppercase (the program converts your search to uppercase).
-- IDs are compared as strings, so you can enter `20250000` as text.
-
-**Outputs**
-- If found:
-  `ID: [20250000] Name: [LAPTOP] Category: [GADGET]`
-- If not found:
-  `No matching product found.`
-
-**Example — show all**
-- Enter your choice (1-4): `2`
-- Show all Products? y/n: `y`
-- ***All Products***
-  - `1 ID: [20250000] Name: [LAPTOP] Category: [GADGET]`
-  - `2 ID: [20250001] Name: [SHIRT]  Category: [CLOTHING]`
-
-**Example — search by name**
-- Enter your choice (1-4): `2`
-- Show all Products? y/n: `n`
-- Enter the Product Name or ID to search: `laptop`
-  - `ID: [20250000] Name: [LAPTOP] Category: [GADGET]`
-
----
-
-## 3. Clear (Show Menu Again)
-**What it does**
-- Clears the console window and redisplays the menu to keep the screen tidy.
-
-**Platform note**
-- The program uses:
-  os.system('cls')
-  which works on **Windows**.
-
-**Example**
-- Enter your choice (1-4): `3`
- # console clears and menu reappears
-
----
-
-## 4. Exit Program
-**What it does**
-- Stops the program and prints a goodbye message.
-
-**Example**
-- Enter your choice (1-4): `4`
-- Exiting program. `Goodbye!`
-
----
-
-## Other Important Details
-
-### Invalid menu input
-- If you type anything other than 1, 2, 3, or 4, the program will respond:
-  Invalid choice. Please select 1, 2, 3, or 4.
-  and show the menu again.
-
-### Data persistence
-- **All data is stored in memory only** (the `data` list). When you close the program, all products are lost.
-
-### Tips & Troubleshooting
-- If search returns nothing, check the exact spelling or ID — names are matched in uppercase.
-- 
----
-
-## Quick Full Example Session
+```
 ******** Store Products Menu ********
 1. Add Product
 2. Search Product
 3. Clear (Show Menu Again)
 4. Exit Program
-
-- Enter your choice (1-4): `1`
-- Product Name: `Phone`
-- Category (Gadget, Clothing, or Food): `Gadget`
-- `Product added! ID: 20250000, Name: PHONE, Category: GADGET`
-
-- Enter your choice (1-4): `2`
-- Show all Products? y/n: `y`
-- ***All Products***
-  - `1 ID: [20250000] Name: [PHONE] Category: [GADGET]`
-
-- Enter your choice (1-4): `4`
-- Exiting program. `Goodbye!`
+```
 
 ---
+
+## 1. What the Program Does
+- Allows you to **store products** with an auto-generated ID.
+- Lets you **search products** by ID or name.
+- Supports **three categories**:  
+  - `Gadget`  
+  - `Clothing`  
+  - `Food`
+
+---
+
+## 2. Menu Options
+
+### **Option 1 — Add Product**
+- Prompts for:
+  1. **Product Name** → converted to uppercase automatically.
+  2. **Category** → must be `"Gadget"`, `"Clothing"`, or `"Food"` (case-insensitive).
+- Automatically generates a **unique Product ID** starting from `20250000`.
+- Example:
+  ```
+  Product Name: Laptop
+  Category (Gadget, Clothing, or Food): Gadget
+  Product added! ID: 20250000, Name: LAPTOP, Category: GADGET
+  ```
+
+---
+
+### **Option 2 — Search Product**
+- First asks:
+  ```
+  Show all Products? y/n:
+  ```
+  - `y` → Displays **all stored products** in a numbered list:
+    ```
+    ***All Products***
+    1 ID: [20250000] Name: [LAPTOP] Category: [GADGET]
+    ```
+  - `n` → Lets you search by **Product Name** or **Product ID**:
+    ```
+    Enter the Product Name or ID to search: LAPTOP
+    ID: [20250000] Name: [LAPTOP] Category: [GADGET]
+    ```
+  - If no match is found:
+    ```
+    No matching product found.
+    ```
+
+---
+
+### **Option 3 — Clear (Show Menu Again)**
+- Clears the screen (Windows only) and **re-displays the menu**.
+
+---
+
+### **Option 4 — Exit Program**
+- Exits the program:
+  ```
+  Exiting program. Goodbye!
+  ```
+
+---
+
+## 3. Example Session
+
+```
+******** Store Products Menu ********
+1. Add Product
+2. Search Product
+3. Clear (Show Menu Again)
+4. Exit Program
+Enter your choice (1-4): 1
+Product Name: Laptop
+Category (Gadget, Clothing, or Food): Gadget
+Product added! ID: 20250000, Name: LAPTOP, Category: GADGET
+
+******** Store Products Menu ********
+Enter your choice (1-4): 2
+Show all Products? y/n: y
+***All Products***
+1 ID: [20250000] Name: [LAPTOP] Category: [GADGET]
+```
+
+---
+
+## 4. Notes
+- **Case-insensitive input** for categories and search terms.
+- IDs are **unique and auto-incremented**.
+- Works on **Windows** for screen clearing (`os.system('cls')`).
