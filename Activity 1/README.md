@@ -3,7 +3,7 @@
 When you **start the program**, you will see:
 
 ```
-******** Store Products Menu ********
+******** Store Products ********
 1. Add Product
 2. Search Product
 3. Clear (Show Menu Again)
@@ -76,7 +76,7 @@ When you **start the program**, you will see:
 ## 3. Example Session
 
 ```
-******** Store Products Menu ********
+******** Store Products ********
 1. Add Product
 2. Search Product
 3. Clear (Show Menu Again)
@@ -86,7 +86,7 @@ Product Name: Laptop
 Category (Gadget, Clothing, or Food): Gadget
 Product added! ID: 20250000, Name: LAPTOP, Category: GADGET
 
-******** Store Products Menu ********
+******** Store Products ********
 Enter your choice (1-4): 2
 Show all Products? y/n: y
 ***All Products***
