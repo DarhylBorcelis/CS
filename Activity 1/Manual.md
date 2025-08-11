@@ -71,10 +71,10 @@ Below is a detailed explanation of **what each menu option does**, what the prog
   - `2 ID: [20250001] Name: [SHIRT]  Category: [CLOTHING]`
 
 **Example — search by name**
-Enter your choice (1-4): 2
-Show all Products? y/n: n
-Enter the Product Name or ID to search: laptop
-ID: [20250000] Name: [LAPTOP] Category: [GADGET]
+- Enter your choice (1-4): `2`
+- Show all Products? y/n: `n`
+- Enter the Product Name or ID to search: `laptop`
+  - `ID: [20250000] Name: [LAPTOP] Category: [GADGET]`
 
 ---
 
