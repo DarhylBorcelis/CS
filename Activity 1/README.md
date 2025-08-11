@@ -1,4 +1,4 @@
-# 🛒 Store Products Menu — User Manual
+# 🛒 Model/Database — User Manual
 
 When you **start the program**, you will see:
 
