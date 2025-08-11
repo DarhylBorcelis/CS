@@ -1,9 +1,4 @@
-# ===============================================================
-# Predator–Prey Model (Lotka–Volterra Equations) with Built-in Manual
-# ===============================================================
-
-manual = """
-🐇🐺 Predator–Prey Model (Lotka–Volterra Equations)
+# 🐇🐺 Predator–Prey Model (Lotka–Volterra Equations)
 ---------------------------------------------------
 This program simulates predator–prey population dynamics over time using the Lotka–Volterra equations.
 It calculates values numerically and displays:
