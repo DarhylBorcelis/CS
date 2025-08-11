@@ -115,8 +115,7 @@ Below is a detailed explanation of **what each menu option does**, what the prog
 
 ### Tips & Troubleshooting
 - If search returns nothing, check the exact spelling or ID — names are matched in uppercase.
-- To stop the program instantly, you can press `Ctrl + C` in the terminal (KeyboardInterrupt).
-
+- 
 ---
 
 ## Quick Full Example Session
