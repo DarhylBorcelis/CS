@@ -1,4 +1,4 @@
-# 📦 Store Products Management Program
+# 📦 MODEL/DATABASE
 
 A simple Python program to **add**, **search**, and **view** store products with an **auto-generated ID system**.
 
