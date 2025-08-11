@@ -95,19 +95,8 @@ _A graph will pop up showing prey (green) decreasing slightly, and predators (or
 ---
 
 ## 6. Notes & Tips
-- The simulation uses **500 calculation steps** to make the curves smooth.
 - You can modify initial populations or rates to explore different predator–prey dynamics.
 - Closing the graph window ends the program.
-
----
-
-## 7. How it Works (Brief)
-The model is defined by two equations:
-```
-dPrey/dt     = α * Prey - β * Prey * Predator
-dPredator/dt = δ * Prey * Predator - γ * Predator
-```
-These are solved over time using `scipy.integrate.odeint`.
 
 ---
 
