@@ -59,9 +59,9 @@ Below is a detailed explanation of **what each menu option does**, what the prog
 
 **Outputs**
 - If found:
-  ID: [20250000] Name: [LAPTOP] Category: [GADGET]
+  ID: `[20250000] Name: [LAPTOP] Category: [GADGET]`
 - If not found:
-  No matching product found.
+  `No matching product found.`
 
 **Example — show all**
 Enter your choice (1-4): 2
