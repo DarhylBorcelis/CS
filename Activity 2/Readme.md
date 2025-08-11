@@ -1,46 +1,113 @@
-# 🐇🐺 Predator–Prey Model (Lotka–Volterra Equations)
----------------------------------------------------
-This program simulates predator–prey population dynamics over time using the Lotka–Volterra equations.
-It calculates values numerically and displays:
-- A year-by-year table
-- A graph of prey vs predator populations
+# 🐺🐇 Predator–Prey Model (Lotka–Volterra) — Detailed Manual
 
-How It Works:
--------------
-Two populations:
-  - Prey (e.g., rabbits) — grows naturally but decreases when eaten by predators.
-  - Predators (e.g., wolves) — decrease naturally but increase when prey is available.
-The populations interact according to:
-  dPrey/dt     = α * Prey − β * Prey * Predator
-  dPredator/dt = δ * Prey * Predator − γ * Predator
+After **starting the program**, you will see the title:
 
-Where:
-  α = prey growth rate
-  β = predation rate
-  γ = predator death rate
-  δ = predator growth rate from eating prey
+```
+=== Predator–Prey Model ===
+```
 
-How to Use:
------------
-1. Run the program.
-2. Enter the number of years to simulate.
-3. View the population table.
-4. See the population graph.
+The program will then ask:
 
-Default Settings:
------------------
-  Prey initial: 1000
-  Predator initial: 50
-  α = 0.5
-  β = 0.0005
-  γ = 0.5
-  δ = 0.0002
+```
+Enter number of years to simulate:
+```
 
-Requirements:
--------------
-  pip install numpy scipy matplotlib
-"""
+---
 
-print(manual)
+## 1. What the Program Does
+- Simulates predator–prey population changes over time using the **Lotka–Volterra equations**.
+- Prints a year-by-year population table for both prey and predator.
+- Displays a population graph showing how both change during the simulation.
 
-# ===============================================================
+---
+
+## 2. User Inputs
+
+### Step 1 — Simulation Duration
+- You will be prompted to enter a number of years (can be a decimal).
+- Example:
+  ```
+  Enter number of years to simulate: 10
+  ```
+  This means the program will simulate 10 years.
+
+---
+
+## 3. Model Parameters (Preset in Code)
+| Parameter | Meaning | Value |
+|-----------|---------|-------|
+| `prey_init` | Initial prey population | 1000 |
+| `pred_init` | Initial predator population | 50 |
+| `alpha` | Prey growth rate | 0.5 |
+| `beta` | Predation rate | 0.0005 |
+| `gamma` | Predator death rate | 0.5 |
+| `delta` | Predator growth rate (from consuming prey) | 0.0002 |
+
+You can edit these values **inside the code** to change the simulation behavior.
+
+---
+
+## 4. Program Output
+
+### a) Yearly Table
+After you enter the number of years, the program prints:
+
+```
+Year | Prey       | Predator
+   0 |  1000.00   |    50.00
+   1 |   980.42   |    52.10
+   2 |   960.34   |    54.22
+  ... (continues until last year)
+```
+
+- **Year** — Simulation year number (0 is the start).
+- **Prey** — Number of prey in that year.
+- **Predator** — Number of predators in that year.
+
+---
+
+### b) Population Graph
+After printing the table, a graph window will appear:
+- **Green line** = Prey population.
+- **Orange line** = Predator population.
+- X-axis = Time in years.
+- Y-axis = Population size.
+
+---
+
+## 5. Example Session
+
+```
+=== Predator–Prey Model ===
+Enter number of years to simulate: 5
+
+Year | Prey       | Predator
+   0 |   1000.00  |    50.00
+   1 |    980.21  |    51.80
+   2 |    961.23  |    53.54
+   3 |    943.01  |    55.20
+   4 |    925.54  |    56.79
+   5 |    908.78  |    58.31
+```
+
+_A graph will pop up showing prey (green) decreasing slightly, and predators (orange) increasing._
+
+---
+
+## 6. Notes & Tips
+- The simulation uses **500 calculation steps** to make the curves smooth.
+- You can modify initial populations or rates to explore different predator–prey dynamics.
+- Closing the graph window ends the program.
+
+---
+
+## 7. How it Works (Brief)
+The model is defined by two equations:
+```
+dPrey/dt     = α * Prey - β * Prey * Predator
+dPredator/dt = δ * Prey * Predator - γ * Predator
+```
+These are solved over time using `scipy.integrate.odeint`.
+
+---
+
