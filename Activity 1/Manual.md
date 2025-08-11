@@ -51,7 +51,7 @@ Below is a detailed explanation of **what each menu option does**, what the prog
    - `y` to list everything, or
    - `n` to search for a specific product.
 3. If you chose `n`, you'll be prompted:
-   - `Enter the Product Name or ID to search:` `Type a product name (any case) or the numeric ID.`
+   - Enter the Product Name or ID to search: `Type a product name (any case) or the numeric ID.`
 
 **Matching rules**
 - Names are compared in uppercase (the program converts your search to uppercase).
