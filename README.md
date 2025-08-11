@@ -44,9 +44,32 @@ A simple program to:
 
 4. **Exit**
    - Closes the program.
-
 ---
 
+## ⭐ Act-2: Predator–Prey Simulation (Lotka–Volterra Model)
+
+This activity simulates predator–prey population dynamics using the **Lotka–Volterra equations**.  
+The user inputs the **number of years** to simulate, and the program:
+- Calculates the populations over time using `scipy.integrate.odeint`.
+- Displays a yearly population table.
+- Plots a graph showing population changes.
+
+### 📌 Features
+- Fixed initial values:
+  - Prey = 1000
+  - Predator = 50
+  - Prey growth rate = 0.5
+  - Predation rate = 0.0005
+  - Predator death rate = 0.5
+  - Predator growth rate = 0.0002
+- User only needs to enter **number of years**.
+- Outputs:
+  - **Table** of yearly prey & predator populations.
+  - **Graph** with:
+    - Green line → Prey
+    - Orange line → Predator
+    
+---
 
 ## ⭐ Act-3: Bubble Sort (Asc/Desc)
 
