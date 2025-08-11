@@ -27,3 +27,9 @@ Once the program ends, **all stored data is lost** since it’s not saved to a f
 
 ## 📋 Menu Options
 
+******** Store Products Menu ********
+
+Add Product
+Search Product
+Clear (Show Menu Again)
+Exit Program
