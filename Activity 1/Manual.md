@@ -138,4 +138,5 @@ Below is a detailed explanation of **what each menu option does**, what the prog
 - Enter your choice (1-4): `4`
 - Exiting program. `Goodbye!`
 
+---
 """
