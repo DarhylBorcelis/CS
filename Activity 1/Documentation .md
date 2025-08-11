@@ -37,10 +37,3 @@ A simple Python program to **add**, **search**, and **view** store products with
 
 ---
 
-## 📖 User Manual
-
-### **1️⃣ Start the Program**
-Run the script:
-```bash
-python store_products.py
-
