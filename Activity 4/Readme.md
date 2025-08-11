@@ -95,8 +95,3 @@ Repeat? y/n: n
 
 ---
 
-## 4. Notes
-- This implementation clears the console (`os.system('cls')`) on Windows after each repeat.
-- Function `f(x)` can be changed to solve a different equation.
-- Works with float inputs for both range and tolerance.
-
