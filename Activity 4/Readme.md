@@ -1,4 +1,4 @@
-# 📐 Numerical Analysis — Root-Finding (Bisection Method) Manual
+# 📐 Bisection Method (Root-Finding) - Manual
 
 After **starting the program**, you will see:
 
