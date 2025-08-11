@@ -88,5 +88,4 @@ Repeat? y/n: n
 ---
 
 ## 6. Notes
-- Sorting is done using Python’s built-in `.sort()` method, not a manual bubble sort algorithm.
 - Works only with integers (decimal input will cause an error unless code is modified).
