@@ -1,4 +1,3 @@
-"""
 # 🏪 MODEL/DATABASE — Detailed Manual
 
 After **starting the program**, you will see this menu:
@@ -139,4 +138,3 @@ Below is a detailed explanation of **what each menu option does**, what the prog
 - Exiting program. `Goodbye!`
 
 ---
-"""
