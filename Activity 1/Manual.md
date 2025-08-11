@@ -64,11 +64,11 @@ Below is a detailed explanation of **what each menu option does**, what the prog
   `No matching product found.`
 
 **Example — show all**
-Enter your choice (1-4): 2
-Show all Products? y/n: y
-***All Products***
-1 ID: [20250000] Name: [LAPTOP] Category: [GADGET]
-2 ID: [20250001] Name: [SHIRT]  Category: [CLOTHING]
+- Enter your choice (1-4): `2`
+- Show all Products? y/n: `y`
+- ***All Products***
+  - `1 ID: [20250000] Name: [LAPTOP] Category: [GADGET]`
+  - `2 ID: [20250001] Name: [SHIRT]  Category: [CLOTHING]`
 
 **Example — search by name**
 Enter your choice (1-4): 2
