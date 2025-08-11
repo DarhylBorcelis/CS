@@ -61,7 +61,7 @@ When you **start the program**, you will see:
 ---
 
 ### **Option 3 — Clear (Show Menu Again)**
-- Clears the screen (Windows only) and **re-displays the menu**.
+- Clears the screen and **re-displays the menu**.
 
 ---
 
