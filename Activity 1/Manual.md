@@ -86,12 +86,10 @@ Below is a detailed explanation of **what each menu option does**, what the prog
 - The program uses:
   os.system('cls')
   which works on **Windows**.
-- If you're on **macOS** or **Linux**, replace 'cls' with 'clear' in the code:
-  os.system('clear')
 
 **Example**
-Enter your choice (1-4): 3
-# console clears and menu reappears
+- Enter your choice (1-4): `3`
+ # console clears and menu reappears
 
 ---
 
@@ -100,8 +98,8 @@ Enter your choice (1-4): 3
 - Stops the program and prints a goodbye message.
 
 **Example**
-Enter your choice (1-4): 4
-Exiting program. Goodbye!
+- Enter your choice (1-4): `4`
+- Exiting program. `Goodbye!`
 
 ---
 
