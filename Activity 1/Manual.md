@@ -112,10 +112,8 @@ Below is a detailed explanation of **what each menu option does**, what the prog
 
 ### Data persistence
 - **All data is stored in memory only** (the `data` list). When you close the program, all products are lost.
-- If you need permanent storage, consider adding file saving (CSV/JSON) or a database.
 
 ### Tips & Troubleshooting
-- If `Clear` does nothing on macOS/Linux: change `'cls'` → `'clear'` as shown above.
 - If search returns nothing, check the exact spelling or ID — names are matched in uppercase.
 - To stop the program instantly, you can press `Ctrl + C` in the terminal (KeyboardInterrupt).
 
