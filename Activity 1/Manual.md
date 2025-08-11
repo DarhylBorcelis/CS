@@ -125,18 +125,18 @@ Below is a detailed explanation of **what each menu option does**, what the prog
 3. Clear (Show Menu Again)
 4. Exit Program
 
-Enter your choice (1-4): 1
-Product Name: Phone
-Category (Gadget, Clothing, or Food): Gadget
-Product added! ID: 20250000, Name: PHONE, Category: GADGET
+- Enter your choice (1-4): `1`
+- Product Name: `Phone`
+- Category (Gadget, Clothing, or Food): `Gadget`
+- `Product added! ID: 20250000, Name: PHONE, Category: GADGET`
 
-Enter your choice (1-4): 2
-Show all Products? y/n: y
-***All Products***
-1 ID: [20250000] Name: [PHONE] Category: [GADGET]
+- Enter your choice (1-4): `2`
+- Show all Products? y/n: `y`
+- ***All Products***
+  - `1 ID: [20250000] Name: [PHONE] Category: [GADGET]`
 
-Enter your choice (1-4): 4
-Exiting program. Goodbye!
+- Enter your choice (1-4): `4`
+- Exiting program. `Goodbye!`
 """
 
 import os
