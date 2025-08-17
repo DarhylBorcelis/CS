@@ -16,9 +16,9 @@ def add_data():
 
 
 def search_data():
-    show = input('Show all Products? y/n: ').lower()
+    show = input('Show all Products? (1/0): ')
     num = 0
-    if show == 'y':
+    if show == '1':
         print("***All Products***")
         for x in data:
             num += 1
@@ -55,4 +55,5 @@ while True:
         break
     else:
         print("Invalid choice. Please select 1, 2, 3, or 0.")
+
 
