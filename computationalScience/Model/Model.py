@@ -41,7 +41,7 @@ while True:
     print("3. Clear (Show Menu Again)")
     print("0. Exit Program")
 
-    choice = input("Enter your choice (1-4): ")
+    choice = input("Enter your choice (1-3 0r 0): ")
 
     if choice == '1':
         add_data()
@@ -55,5 +55,6 @@ while True:
         break
     else:
         print("Invalid choice. Please select 1, 2, 3, or 0.")
+
 
 
