@@ -44,3 +44,12 @@ Enter node 4: 7
 Enter node 5: 20
  ```
 
+---
+
+### Step 4 — See the Inorder Traversal
+- Example:
+ ```
+  Inorder Traversal (sorted order):
+  3 5 7 10 15 20
+  ```
+
