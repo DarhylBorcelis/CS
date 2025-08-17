@@ -64,11 +64,11 @@ Sorted list: [5, 8, 17, 42, 99]
 ## 4. Repeat or Exit
 - After sorting, the program asks:
   ```
-  Repeat? y/n:
+  Repeat? (1/0):
   ```
 - Type:
-  - `y` to run again.
-  - `n` to quit the program.
+  - `1` to run again.
+  - `0` to quit the program.
 
 ---
 
@@ -82,7 +82,7 @@ Enter number 3: 7
 Enter number 4: 1
 Enter ('asc') for Ascending or ('des') for Descending: des
 Sorted list: [10, 7, 3, 1]
-Repeat? y/n: n
+Repeat? (1/0): 0
 ```
 
 ---
