@@ -78,5 +78,4 @@ Enter node 5: 20
 
 ## 5. Notes & Tips
 - **Inorder traversal** always prints values in **ascending order** for BSTs.  
-- If you enter duplicate values, they will be ignored (since the code only inserts values smaller or larger than the current node).  
-- You can change the traversal (e.g., Preorder or Postorder) by adding new methods.  
+- If you enter duplicate values, they will be ignored (since the code only inserts values smaller or larger than the current node).   
