@@ -39,7 +39,7 @@ while True:
     print("1. Add Product")
     print("2. Search Product")
     print("3. Clear (Show Menu Again)")
-    print("4. Exit Program")
+    print("0. Exit Program")
 
     choice = input("Enter your choice (1-4): ")
 
@@ -50,8 +50,9 @@ while True:
     elif choice == '3':
         os.system('cls')
         continue
-    elif choice == '4':
+    elif choice == '0':
         print("Exiting program. Goodbye!")
         break
     else:
-        print("Invalid choice. Please select 1, 2, 3, or 4.")
+        print("Invalid choice. Please select 1, 2, 3, or 0.")
+
