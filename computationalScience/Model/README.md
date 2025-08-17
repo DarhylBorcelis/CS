@@ -7,7 +7,7 @@ When you **start the program**, you will see:
 1. Add Product
 2. Search Product
 3. Clear (Show Menu Again)
-4. Exit Program
+0. Exit Program
 ```
 
 ---
@@ -41,14 +41,14 @@ When you **start the program**, you will see:
 ### **Option 2 — Search Product**
 - First asks:
   ```
-  Show all Products? y/n:
+  Show all Products? (1/0):
   ```
-  - `y` → Displays **all stored products** in a numbered list:
+  - `1` → Displays **all stored products** in a numbered list:
     ```
     ***All Products***
     1 ID: [20250000] Name: [LAPTOP] Category: [GADGET]
     ```
-  - `n` → Lets you search by **Product Name** or **Product ID**:
+  - `0` → Lets you search by **Product Name** or **Product ID**:
     ```
     Enter the Product Name or ID to search: LAPTOP
     ID: [20250000] Name: [LAPTOP] Category: [GADGET]
@@ -65,7 +65,7 @@ When you **start the program**, you will see:
 
 ---
 
-### **Option 4 — Exit Program**
+### **Option 0 — Exit Program**
 - Exits the program:
   ```
   Exiting program. Goodbye!
@@ -80,14 +80,14 @@ When you **start the program**, you will see:
 1. Add Product
 2. Search Product
 3. Clear (Show Menu Again)
-4. Exit Program
-Enter your choice (1-4): 1
+0. Exit Program
+Enter your choice (1-3 or 0): 1
 Product Name: Laptop
 Category (Gadget, Clothing, or Food): Gadget
 Product added! ID: 20250000, Name: LAPTOP, Category: GADGET
 
 ******** Store Products ********
-Enter your choice (1-4): 2
+Enter your choice (1-3 or 0): 2
 Show all Products? y/n: y
 ***All Products***
 1 ID: [20250000] Name: [LAPTOP] Category: [GADGET]
