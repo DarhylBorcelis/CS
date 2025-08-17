@@ -24,3 +24,23 @@ Enter the root of the tree:
   Enter the root of the tree: 10
 ```
 
+---
+
+### Step 2 — Choose how many nodes to insert
+- Example:
+ ```
+  How many other nodes do you want to insert? 5
+ ```
+
+---
+
+### Step 3 — Input each node
+- Example:
+ ```
+Enter node 1: 5
+Enter node 2: 15
+Enter node 3: 3
+Enter node 4: 7
+Enter node 5: 20
+ ```
+
