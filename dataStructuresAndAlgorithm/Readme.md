@@ -63,15 +63,12 @@ Enter node 5: 20
 
 ## 4. Example Session
 - Example:
-  ```
-  Enter the root of the tree: 10
-  How many other nodes do you want to insert? 5
-  Enter node 1: 5
-  Enter node 2: 15
-  Enter node 3: 3
-  Enter node 4: 7
-  Enter node 5: 20
+Enter the root of the tree: 10
+How many other nodes do you want to insert? 5
+Enter node 1: 5
+Enter node 2: 15
+Enter node 3: 3
+Enter node 4: 7
+Enter node 5: 20
+Inorder Traversal (sorted order): 3 5 7 10 15 20
 
-  Inorder Traversal (sorted order):
-  3 5 7 10 15 20
-  ```
