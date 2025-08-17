@@ -18,6 +18,7 @@ while True:
     else:
         print("Invalid choice. Please type 'asc' or 'des'.")
 
-    con = input("Repeat? y/n: ").lower()
-    if con == "n":
+    con = input("Repeat? (1/0): ").lower()
+    if con == "0":
         break
+
