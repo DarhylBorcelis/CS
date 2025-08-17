@@ -29,9 +29,10 @@ while True:
             else:
                 a = c
 
-    con = input("Repeat? y/n: ").lower()
-    if con == "n":
+    con = input("Repeat? (1/0): ").lower()
+    if con == "0":
         break
     else:
         os.system('cls')
+
 
