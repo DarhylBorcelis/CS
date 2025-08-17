@@ -73,11 +73,11 @@ After **starting the program**, you will see:
 ### Step 6 — Repeat or exit
 - After each run:
   ```
-  Repeat? y/n:
+  Repeat? (1/0):
   ```
 - Type:
-  - `y` → run the program again
-  - `n` → exit
+  - `1` → run the program again
+  - `0` → exit
 
 ---
 
@@ -90,7 +90,7 @@ Tolerance only start from 0.01: 0.01
 Start a: 1
 Start b: 2
 Root: 1.521378 in 10 iterations.
-Repeat? y/n: n
+Repeat? (1/0): 0
 ```
 
 ---
