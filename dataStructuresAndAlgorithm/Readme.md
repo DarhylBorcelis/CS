@@ -1,81 +1,64 @@
-# 🌳 Binary Search Tree (BST) — Detailed Manual
-
-After **starting the program**, you will see:
-
-    Enter the root of the tree:
-
----
-
-## 1. What the Program Does
-- Lets you create a **Binary Search Tree** by first defining the root.
-- Allows you to insert additional nodes one by one.
-- Displays the tree using **Inorder Traversal** (which shows the numbers in sorted order).
-
----
-
-## 2. User Steps
-
-### Step 1 — Enter the root of the tree
-Example:
-    Enter the root of the tree: 50
-
----
-
-### Step 2 — Decide how many nodes to insert
-Example:
-    How many other nodes do you want to insert? 4
-
----
-
-### Step 3 — Insert nodes one by one
-Example:
-    Enter node 1: 30
-    Enter node 2: 70
-    Enter node 3: 20
-    Enter node 4: 40
-
----
-
-### Step 4 — Display the tree (Inorder Traversal)
-Example output:
-    Inorder Traversal (sorted order):
-    20 30 40 50 70
-
----
-
-## 3. How Insertion Works
-- If the new value is **less** than the current node → goes to the **left**.
-- If the new value is **greater** than the current node → goes to the **right**.
-- Duplicate values are ignored.
-
-Example Tree (from input above):
-
-        50
-       /  \
-     30    70
-    /  \
-  20    40
-
----
-
-## 4. Example Session
-
-    Enter the root of the tree: 50
-    How many other nodes do you want to insert? 4
-    Enter node 1: 30
-    Enter node 2: 70
-    Enter node 3: 20
-    Enter node 4: 40
-
-    Inorder Traversal (sorted order):
-    20 30 40 50 70
-
----
-
-## 5. Notes & Tips
-- Works only with integers (decimal input will cause an error unless modified).
-- Inorder traversal **always prints the tree in ascending order**.
-- You can expand the program to include:
-  - Preorder and Postorder traversals
-  - Node search
-  - Deletion of nodes
+# 🔢 Bubble Sort — Detailed Manual
+#
+# After starting the program, you will see:
+#     Bubble Sort how many numbers?
+#
+# ---------------------------------------------------
+# 1. What the Program Does
+# - Lets you input a list of numbers.
+# - Sorts the list in ascending or descending order based on your choice.
+# - Repeats until you decide to exit.
+#
+# ---------------------------------------------------
+# 2. User Steps
+#
+# Step 1 — Enter number of items
+# - Type the number of elements you want to sort.
+# - Example:
+#       Bubble Sort how many numbers? 5
+#
+# Step 2 — Input numbers
+# - The program will ask for each number in sequence.
+# - Example:
+#       Enter number 1: 42
+#       Enter number 2: 5
+#       Enter number 3: 17
+#       Enter number 4: 8
+#       Enter number 5: 99
+#
+# Step 3 — Choose sort order
+# - Type:
+#       asc → for ascending order (small → large)
+#       des → for descending order (large → small)
+#
+# Example:
+#       Enter ('asc') for Ascending or ('des') for Descending: asc
+#       Sorted list: [5, 8, 17, 42, 99]
+#
+# ---------------------------------------------------
+# 3. Validation
+# - If you type anything other than 'asc' or 'des':
+#       Invalid choice. Please type 'asc' or 'des'.
+#
+# ---------------------------------------------------
+# 4. Repeat or Exit
+# - After sorting, the program asks:
+#       Repeat? (y/n):
+# - Type:
+#       y → to run again
+#       n → to quit
+#
+# ---------------------------------------------------
+# 5. Example Session
+# Bubble Sort how many numbers? 4
+# Enter number 1: 10
+# Enter number 2: 3
+# Enter number 3: 7
+# Enter number 4: 1
+# Enter ('asc') for Ascending or ('des') for Descending: des
+# Sorted list: [10, 7, 3, 1]
+# Repeat? (y/n): n
+#
+# ---------------------------------------------------
+# 6. Notes & Tips
+# - Works only with integers (decimal input will cause an error unless code is modified).
